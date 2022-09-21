@@ -1,15 +1,15 @@
-import Dashboard from "../pages/Dashboard";
-import Home from "../pages/Home";
+import Dashboard from "../pages/Dashboard"
+import Home from "../pages/Home"
 
 export const pathRoutes = [
   {
     id: 1,
-    path: '/',
-    element: <Home />
+    path: "/",
+    element: <Home />,
   },
   {
     id: 2,
-    path: '/dashboard',
-    element: <Dashboard />
+    path: "/dashboard",
+    element: <Dashboard />,
   },
 ]

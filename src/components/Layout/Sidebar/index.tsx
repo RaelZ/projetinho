@@ -9,7 +9,7 @@ const Sidebar: React.FC = () => {
   return (
     <Grid
       sx={{
-        width: 320,
+        minWidth: 320,
         backgroundColor: "black",
         height: "calc(100vh - 50px)",
       }}
